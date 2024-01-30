@@ -15,6 +15,8 @@ def welcome_assignment_answers(question):
         answer = "No"
     elif question == "What is the SHA256 hashing value of your NYU email and use the answer in your code - ":
         answer = "e2a0c88c73bc0d43961b81433a4abd7742f2344a51e154d04b2c25edbc8edbfb"
+    elif question == "Is MD5 a secured hashing algorithm? - Yes/No":
+        answer = "No"
     else: 
         ### you should understand why this else case should be included
         ### what happens if there is a typo in one of the questions?
